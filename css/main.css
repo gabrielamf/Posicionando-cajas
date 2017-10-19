@@ -1,0 +1,50 @@
+/* Primera caja*/
+ .caja-padre {
+   background: #FF0000;
+   width: 300px;
+   height: 300px;
+   margin: 30px auto;
+
+ }
+
+ .caja-padre .caja-hijo-1 {
+   background: #800080;
+   width: 150px;
+   height: 150px;
+   position: relative;
+   top: 75px;
+   left: 75px;
+ }
+
+ .caja-padre .caja-hijo-1 .caja-hijo-2 {
+   background: #FFFF00;
+   width: 75px;
+   height: 75px;
+   position: absolute;
+ }
+
+/* Segunda caja*/
+ .caja-padre-2 {
+   background: #0000FF;
+   width: 300px;
+   height: 300px;
+   margin: 15px auto;
+   position: relative;
+
+ }
+
+ .caja-padre-2 .caja-hijo-2-2 {
+   background: #000000;
+   width: 75px;
+   height: 75px;
+   position: absolute;
+ }
+
+ .caja-padre-2 .caja-hijo-2-2 .caja-hijo-2-3 {
+   background: #008000;
+   width: 150px;
+   height: 150px;
+   position: relative;
+   top: 75px;
+   left: 75px;
+ }
